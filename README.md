@@ -67,7 +67,7 @@ Contributions welcome, please send a pull request.
 * [Stack Overflow](https://stackoverflow.com/questions/tagged/silverstripe)
 * [Silverstripe User Slack](https://silverstripe-users.slack.com/)
   * [Invitation to Silverstripe User Slack](https://www.silverstripe.org/community/slack-signup)
-  * [Slack Archive](https://slackarchive.silverstripe.org)
+  * ~[Slack Archive](https://slackarchive.silverstripe.org)~ Not active anymore due to Slack API changes
 * [Forum](https://forum.silverstripe.org/)
     
 ### Meetups 
@@ -88,11 +88,24 @@ Contributions welcome, please send a pull request.
 * [Fluent](https://github.com/tractorcow-farm/silverstripe-fluent): Multi-language translate module for Silverstripe, without having to manage separate site trees
 * [Autotranslate](https://github.com/bratiask/silverstripe-autotranslate): creates automatic translations of fields using Google Translate API
 
-### Site Search
-* [Fulltext Search](https://github.com/silverstripe/silverstripe-fulltextsearch) Full fledged search interface for search backends like SOLR or elastic search.
-* [Fulltext Search Local SOLR](https://addons.silverstripe.org/add-ons/silverstripe/fulltextsearch-localsolr) easy to install SOLR instance for local development
+### Site Search 
 * [Silverstripe Searchable](https://github.com/i-lateral/silverstripe-searchable) Adds more complex site searching using the Silverstripe ORM. With dedicated templates for search results across multiple search objects.
 * [Searchable DataObjects](https://github.com/g4b0/silverstripe-searchable-dataobjects) Fast and simple MySQL based search. Useful for single language sites
+
+#### Solr 4
+* [Fulltext Search](https://github.com/silverstripe/silverstripe-fulltextsearch) Full fledged search interface for search backends like Solr or elastic search.
+* [Fulltext Search Local Solr](https://addons.silverstripe.org/add-ons/silverstripe/fulltextsearch-localsolr) easy to install Solr instance for local development
+
+#### Newer Solr versions
+* [Solr search](https://github.com/firesphere/silverstripe-solr-search) Full fledged search interface for Solr search, supporting up to the latest Solr version
+  * Documentation
+    * [API Documentation](https://firesphere.github.io/solr-api/)
+    * [Usage Documentation](https://firesphere.github.io/solr-docs/)
+  * Submodules
+    * [Fulltext Search compatibility](https://github.com/Firesphere/silverstripe-solr-compatibility) Make transitioning to the new module easier
+    * [Subsites](https://github.com/Firesphere/silverstripe-subsite-solr) Adds support for subsites
+    * [Fluent](https://github.com/Firesphere/silverstripe-fluent-solr) Adds support for Fluent
+    * [Fine grained member permissions](https://github.com/Firesphere/silverstripe-solr-member-permissions) Adds per-member based permission instead of Group based permissions
 
 ### Development Helpers
 * [Debugbar](https://github.com/lekoala/silverstripe-debugbar/) Shows debugging statistics in your browser
